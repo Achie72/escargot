@@ -90,11 +90,14 @@ matrix:
         apt:
           packages: [ autoconf, automake, libtool, ninja-build, libicu-dev ]
         sonarcloud:
-          organization: "pando-project"
+          organization: "achie72-github"
+          token:
+            secure: ${SONAR_TOKEN}
       cache:
         directories:
           - '$HOME/.sonar/cache'
       script:
+        - git fetch origin master --unshallow
         - ./tools/check_sonarqube.sh
 
   allow_failures:

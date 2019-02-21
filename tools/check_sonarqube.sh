@@ -14,9 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-if [[ "${TRAVIS_REPO_SLUG}" == "pando-project/escargot"
-          && ${TRAVIS_BRANCH} == "master"
-          && ${TRAVIS_EVENT_TYPE} == "push" ]]
+if [[ "${TRAVIS_REPO_SLUG}" == "Achie72/escargot" ]]
 then
   git fetch --unshallow
   build-wrapper-linux-x86-64 --out-dir bw_output tools/trigger_build.sh
