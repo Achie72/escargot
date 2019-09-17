@@ -129,7 +129,9 @@ matrix:
         apt:
           packages: [ autoconf, automake, libtool, ninja-build, libicu-dev ]
         sonarcloud:
-          organization: "lws-project"
+          organization: "achie72-github"
+          token:
+            secure: SONAR_TOKEN
       cache:
         directories:
           - '$HOME/.sonar/cache'
