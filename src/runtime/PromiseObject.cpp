@@ -27,6 +27,8 @@
 #include "runtime/JobQueue.h"
 #include "runtime/SandBox.h"
 #include "runtime/NativeFunctionObject.h"
+#include "runtime/ExtendedNativeFunctionObject.h"
+#include "runtime/ValueThunkFunctionObject.h"
 #include "interpreter/ByteCodeInterpreter.h"
 
 namespace Escargot {
@@ -323,5 +325,87 @@ Value promiseAllResolveElementFunction(ExecutionState& state, Value thisValue, s
         Object::call(state, resolveFunction, Value(), 1, arguments);
     }
     return Value();
+}
+
+
+Value ValueThunkHelper(ExecutionState& state, Value thisValue, size_t argc, Value* argv, bool isNewExpression)
+{
+    // Let F be the active function object.
+    Object* F = state.resolveCallee();
+    // Return the resolve's member value
+    return F->asValueThunkFunctionObject()->getThunkValue();
+}
+
+
+Value ValueThunkThrower(ExecutionState& state, Value thisValue, size_t argc, Value* argv, bool isNewExpression)
+{
+    // Let F be the active function object.
+    Object* F = state.resolveCallee();
+    // Throw the resolve's member value
+    state.throwException(F->asValueThunkFunctionObject()->getThunkValue());
+    return Value();
+}
+
+
+Value promiseThenFinally(ExecutionState& state, Value thisValue, size_t argc, Value* argv, bool isNewExpression)
+{
+    auto strings = &state.context()->staticStrings();
+    // Let F be the active function object.
+    Object* F = state.resolveCallee();
+    // Let onFinally be F.[[OnFinally]].
+    Value onFinally = F->asExtendedNativeFunctionObject()->getInternalValues()[1];
+
+    // Assert: IsCallable(onFinally) is true.
+    // Let result be ? Call(onFinally, undefined).
+    ASSERT(onFinally.isCallable());
+    Value result = Object::call(state, onFinally, Value(), 0, nullptr);
+
+    // Let C be F.[[Constructor]].
+    // Assert: IsConstructor(C) is true.
+    Value C = F->asExtendedNativeFunctionObject()->getInternalValues()[0];
+    ASSERT(C.isConstructor());
+
+    // Let promise be ? PromiseResolve(C, result).
+    Value promise = promiseResolve(state, C.asObject(), result);
+
+    // Let valueThunk be equivalent to a function that returns value.
+    ValueThunkFunctionObject* valueThunk = new ValueThunkFunctionObject(state, NativeFunctionInfo(AtomicString(state, String::emptyString), ValueThunkHelper, 1, NativeFunctionInfo::Strict), argv[0]);
+    // Return ? Invoke(promise, "then", « valueThunk »).
+    Value then = promise.asObject()->asPromiseObject()->get(state, strings->then).value(state, promise.asObject()->asPromiseObject());
+
+    Value argument[1] = { Value(valueThunk) };
+
+    return Object::call(state, then, promise, 1, argument);
+}
+
+
+Value promiseCatchFinally(ExecutionState& state, Value thisValue, size_t argc, Value* argv, bool isNewExpression)
+{
+    auto strings = &state.context()->staticStrings();
+    // Let F be the active function object.
+    Object* F = state.resolveCallee();
+    // Let onFinally be F.[[OnFinally]].
+    Value onFinally = F->asExtendedNativeFunctionObject()->getInternalValues()[1];
+
+    // Assert: IsCallable(onFinally) is true.
+    // Let result be ? Call(onFinally, undefined).
+    ASSERT(onFinally.isCallable());
+    Value result = Object::call(state, onFinally, Value(), 0, nullptr);
+
+    // Let C be F.[[Constructor]].
+    // Assert: IsConstructor(C) is true.
+    Value C = F->asExtendedNativeFunctionObject()->getInternalValues()[0];
+    ASSERT(C.isConstructor());
+
+    // Let promise be ? PromiseResolve(C, result).
+    Value promise = promiseResolve(state, C.asObject(), result);
+
+    // Let thrower be equivalent to a function that throws reason.
+    ValueThunkFunctionObject* valueThunk = new ValueThunkFunctionObject(state, NativeFunctionInfo(AtomicString(state, String::emptyString), ValueThunkThrower, 1, NativeFunctionInfo::Strict), argv[0]);
+    // Return ? Invoke(promise, "then", « thrower »).
+    Value then = promise.asObject()->asPromiseObject()->get(state, strings->then).value(state, promise.asObject()->asPromiseObject());
+    Value argument[1] = { Value(valueThunk) };
+
+    return Object::call(state, then, promise, 1, argument);
 }
 }

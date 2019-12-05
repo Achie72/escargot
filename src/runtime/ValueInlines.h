@@ -313,6 +313,17 @@ inline bool Value::isFunction() const
     return isObject() && asPointerValue()->isFunctionObject();
 }
 
+inline bool Value::isExtendedNativeFunctionObject() const
+{
+    return isObject() && asPointerValue()->isExtendedNativeFunctionObject();
+}
+
+inline bool Value::isValueThunkFunctionObject() const
+{
+    return isObject() && asPointerValue()->isValueThunkFunctionObject();
+}
+
+
 inline FunctionObject* Value::asFunction() const
 {
     return asPointerValue()->asFunctionObject();
@@ -536,6 +547,16 @@ inline bool Value::isFunction() const
 inline FunctionObject* Value::asFunction() const
 {
     return asPointerValue()->asFunctionObject();
+}
+
+inline ExtendedNativeFunctionObject* Value::asExtendedNativeFunctionObject() const
+{
+    return asPointerValue()->asExtendedNativeFunctionObject();
+}
+
+inline ValueThunkFunctionObject* Value::asValueThunkFunctionObject() const
+{
+    return asPointerValue()->asValueThunkFunctionObject();
 }
 
 inline intptr_t Value::payload() const

@@ -134,6 +134,9 @@ private:
 protected:
 };
 
+Value ValueThunkHelper(Value value);
+Value ValueThunkThrower(Value value);
+
 Value getCapabilitiesExecutorFunction(ExecutionState& state, Value thisValue, size_t argc, Value* argv, bool isNewExpression);
 // http://www.ecma-international.org/ecma-262/10.0/#sec-promise-resolve
 // The abstract operation PromiseResolve, given a constructor and a value, returns a new promise resolved with that value.
@@ -142,6 +145,8 @@ Value promiseResolve(ExecutionState& state, Object* C, const Value& x);
 Value promiseResolveFunctions(ExecutionState& state, Value thisValue, size_t argc, Value* argv, bool isNewExpression);
 Value promiseRejectFunction(ExecutionState& state, Value thisValue, size_t argc, Value* argv, bool isNewExpression);
 Value promiseAllResolveElementFunction(ExecutionState& state, Value thisValue, size_t argc, Value* argv, bool isNewExpression);
+Value promiseThenFinally(ExecutionState& state, Value thisValue, size_t argc, Value* argv, bool isNewExpression);
+Value promiseCatchFinally(ExecutionState& state, Value thisValue, size_t argc, Value* argv, bool isNewExpression);
 }
 
 #endif // __EscargotPromiseObject__
