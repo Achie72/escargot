@@ -215,7 +215,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass2()
                  {0x2a700, 0x2b734}, {0x2b740, 0x2b81d}, {0x2b820, 0x2cea1}, {0x2ceb0, 0x2ebe0},
                  {0x2f800, 0x2fa1d}, {0x30000, 0x3134a}, {0xe0020, 0xe007f}, {0xe0100, 0xe01ef},
                  {0xf0000, 0xffffd}, {0x100000, 0x10fffd}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -367,7 +367,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass3()
                  {0x1fad7, 0x1faff}, {0x1fbcb, 0x1fbef}, {0x1fbfa, 0x1ffff}, {0x2a6de, 0x2a6ff},
                  {0x2b735, 0x2b73f}, {0x2b81e, 0x2b81f}, {0x2cea2, 0x2ceaf}, {0x2ebe1, 0x2f7ff},
                  {0x2fa1e, 0x2ffff}, {0x3134b, 0xe00ff}, {0xe01f0, 0x10ffff}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -518,7 +518,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass4()
                  {0x2a6de, 0x2a6ff}, {0x2b735, 0x2b73f}, {0x2b81e, 0x2b81f}, {0x2cea2, 0x2ceaf},
                  {0x2ebe1, 0x2f7ff}, {0x2fa1e, 0x2ffff}, {0x3134b, 0xe0000}, {0xe0002, 0xe001f},
                  {0xe0080, 0xe00ff}, {0xe01f0, 0xeffff}, {0xffffe, 0xfffff}, {0x10fffe, 0x10ffff}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -667,7 +667,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass5()
                  {0x1ee80, 0x1ee89}, {0x1ee8b, 0x1ee9b}, {0x1eea1, 0x1eea3}, {0x1eea5, 0x1eea9},
                  {0x1eeab, 0x1eebb}, {0x20000, 0x2a6dd}, {0x2a700, 0x2b734}, {0x2b740, 0x2b81d},
                  {0x2b820, 0x2cea1}, {0x2ceb0, 0x2ebe0}, {0x2f800, 0x2fa1d}, {0x30000, 0x3134a}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -895,7 +895,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass12()
                  {0x1fa70, 0x1fa74}, {0x1fa78, 0x1fa7a}, {0x1fa80, 0x1fa86}, {0x1fa90, 0x1faa8},
                  {0x1fab0, 0x1fab6}, {0x1fac0, 0x1fac2}, {0x1fad0, 0x1fad6}, {0x1fb00, 0x1fb92},
                  {0x1fb94, 0x1fbca}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -1155,7 +1155,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass20()
                  {0x1d5a0, 0x1d5b9}, {0x1d5d4, 0x1d5ed}, {0x1d608, 0x1d621}, {0x1d63c, 0x1d655},
                  {0x1d670, 0x1d689}, {0x1d6a8, 0x1d6c0}, {0x1d6e2, 0x1d6fa}, {0x1d71c, 0x1d734},
                  {0x1d756, 0x1d76e}, {0x1d790, 0x1d7a8}, {0x1e900, 0x1e921}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -1288,7 +1288,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass23()
                  {0x1d6c2, 0x1d6da}, {0x1d6dc, 0x1d6e1}, {0x1d6fc, 0x1d714}, {0x1d716, 0x1d71b},
                  {0x1d736, 0x1d74e}, {0x1d750, 0x1d755}, {0x1d770, 0x1d788}, {0x1d78a, 0x1d78f},
                  {0x1d7aa, 0x1d7c2}, {0x1d7c4, 0x1d7c9}, {0x1e922, 0x1e943}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -1459,7 +1459,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass25()
                  {0x1eea1, 0x1eea3}, {0x1eea5, 0x1eea9}, {0x1eeab, 0x1eebb}, {0x20000, 0x2a6dd},
                  {0x2a700, 0x2b734}, {0x2b740, 0x2b81d}, {0x2b820, 0x2cea1}, {0x2ceb0, 0x2ebe0},
                  {0x2f800, 0x2fa1d}, {0x30000, 0x3134a}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -1637,7 +1637,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass32()
                  {0x1da9b, 0x1da9f}, {0x1daa1, 0x1daaf}, {0x1e000, 0x1e006}, {0x1e008, 0x1e018},
                  {0x1e01b, 0x1e021}, {0x1e023, 0x1e024}, {0x1e026, 0x1e02a}, {0x1e130, 0x1e136},
                  {0x1e2ec, 0x1e2ef}, {0x1e8d0, 0x1e8d6}, {0x1e944, 0x1e94a}, {0xe0100, 0xe01ef}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -1716,7 +1716,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass33()
                  {0x1e000, 0x1e006}, {0x1e008, 0x1e018}, {0x1e01b, 0x1e021}, {0x1e023, 0x1e024},
                  {0x1e026, 0x1e02a}, {0x1e130, 0x1e136}, {0x1e2ec, 0x1e2ef}, {0x1e8d0, 0x1e8d6},
                  {0x1e944, 0x1e94a}, {0xe0100, 0xe01ef}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -2077,7 +2077,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass43()
                  {0x1eeab, 0x1eebb}, {0x1f130, 0x1f149}, {0x1f150, 0x1f169}, {0x1f170, 0x1f189},
                  {0x20000, 0x2a6dd}, {0x2a700, 0x2b734}, {0x2b740, 0x2b81d}, {0x2b820, 0x2cea1},
                  {0x2ceb0, 0x2ebe0}, {0x2f800, 0x2fa1d}, {0x30000, 0x3134a}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -2182,7 +2182,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass44()
                  {0x1d68a, 0x1d6a5}, {0x1d6c2, 0x1d6da}, {0x1d6dc, 0x1d6e1}, {0x1d6fc, 0x1d714},
                  {0x1d716, 0x1d71b}, {0x1d736, 0x1d74e}, {0x1d750, 0x1d755}, {0x1d770, 0x1d788},
                  {0x1d78a, 0x1d78f}, {0x1d7aa, 0x1d7c2}, {0x1d7c4, 0x1d7c9}, {0x1e922, 0x1e943}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -2285,7 +2285,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass45()
                  {0x1d608, 0x1d621}, {0x1d63c, 0x1d655}, {0x1d670, 0x1d689}, {0x1d6a8, 0x1d6c0},
                  {0x1d6e2, 0x1d6fa}, {0x1d71c, 0x1d734}, {0x1d756, 0x1d76e}, {0x1d790, 0x1d7a8},
                  {0x1e900, 0x1e921}, {0x1f130, 0x1f149}, {0x1f150, 0x1f169}, {0x1f170, 0x1f189}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -2420,7 +2420,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass47()
                  {0x1e01b, 0x1e021}, {0x1e023, 0x1e024}, {0x1e026, 0x1e02a}, {0x1e130, 0x1e13d},
                  {0x1e2ec, 0x1e2ef}, {0x1e8d0, 0x1e8d6}, {0x1e944, 0x1e94b}, {0x1f3fb, 0x1f3ff},
                  {0xe0020, 0xe007f}, {0xe0100, 0xe01ef}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -2514,7 +2514,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass48()
                  {0xa77d, 0xa77e}, {0xa7aa, 0xa7ae}, {0xa7b0, 0xa7b4}, {0xa7c4, 0xa7c7},
                  {0xff21, 0xff3a}, {0x10400, 0x10427}, {0x104b0, 0x104d3}, {0x10c80, 0x10cb2},
                  {0x118a0, 0x118bf}, {0x16e40, 0x16e5f}, {0x1e900, 0x1e921}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -2610,7 +2610,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass49()
                  {0x2d00, 0x2d25}, {0xa793, 0xa794}, {0xab70, 0xabbf}, {0xfb00, 0xfb06},
                  {0xfb13, 0xfb17}, {0xff41, 0xff5a}, {0x10428, 0x1044f}, {0x104d8, 0x104fb},
                  {0x10cc0, 0x10cf2}, {0x118c0, 0x118df}, {0x16e60, 0x16e7f}, {0x1e922, 0x1e943}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -2706,7 +2706,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass50()
                  {0xa793, 0xa794}, {0xab70, 0xabbf}, {0xfb00, 0xfb06}, {0xfb13, 0xfb17},
                  {0xff41, 0xff5a}, {0x10428, 0x1044f}, {0x104d8, 0x104fb}, {0x10cc0, 0x10cf2},
                  {0x118c0, 0x118df}, {0x16e60, 0x16e7f}, {0x1e922, 0x1e943}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -2803,7 +2803,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass51()
                  {0xab70, 0xabbf}, {0xfb00, 0xfb06}, {0xfb13, 0xfb17}, {0xff21, 0xff3a},
                  {0x10400, 0x10427}, {0x104b0, 0x104d3}, {0x10c80, 0x10cb2}, {0x118a0, 0x118bf},
                  {0x16e40, 0x16e5f}, {0x1e900, 0x1e921}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -2991,7 +2991,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass53()
                  {0x1eea5, 0x1eea9}, {0x1eeab, 0x1eebb}, {0x20000, 0x2a6dd}, {0x2a700, 0x2b734},
                  {0x2b740, 0x2b81d}, {0x2b820, 0x2cea1}, {0x2ceb0, 0x2ebe0}, {0x2f800, 0x2fa1d},
                  {0x30000, 0x3134a}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -3170,7 +3170,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass54()
                  {0x1eea5, 0x1eea9}, {0x1eeab, 0x1eebb}, {0x1fbf0, 0x1fbf9}, {0x20000, 0x2a6dd},
                  {0x2a700, 0x2b734}, {0x2b740, 0x2b81d}, {0x2b820, 0x2cea1}, {0x2ceb0, 0x2ebe0},
                  {0x2f800, 0x2fa1d}, {0x30000, 0x3134a}, {0xe0100, 0xe01ef}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -3320,7 +3320,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass55()
                  {0x1ee80, 0x1ee89}, {0x1ee8b, 0x1ee9b}, {0x1eea1, 0x1eea3}, {0x1eea5, 0x1eea9},
                  {0x1eeab, 0x1eebb}, {0x20000, 0x2a6dd}, {0x2a700, 0x2b734}, {0x2b740, 0x2b81d},
                  {0x2b820, 0x2cea1}, {0x2ceb0, 0x2ebe0}, {0x2f800, 0x2fa1d}, {0x30000, 0x3134a}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -3500,7 +3500,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass56()
                  {0x1eea1, 0x1eea3}, {0x1eea5, 0x1eea9}, {0x1eeab, 0x1eebb}, {0x1fbf0, 0x1fbf9},
                  {0x20000, 0x2a6dd}, {0x2a700, 0x2b734}, {0x2b740, 0x2b81d}, {0x2b820, 0x2cea1},
                  {0x2ceb0, 0x2ebe0}, {0x2f800, 0x2fa1d}, {0x30000, 0x3134a}, {0xe0100, 0xe01ef}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -3596,7 +3596,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass58()
                  {0x1e008, 0x1e018}, {0x1e01b, 0x1e021}, {0x1e023, 0x1e024}, {0x1e026, 0x1e02a},
                  {0x1e130, 0x1e136}, {0x1e2ec, 0x1e2ef}, {0x1e8d0, 0x1e8d6}, {0x1e944, 0x1e94a},
                  {0xe0020, 0xe007f}, {0xe0100, 0xe01ef}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -3798,7 +3798,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass59()
                  {0x1fad0, 0x1fad6}, {0x1fb00, 0x1fb92}, {0x1fb94, 0x1fbca}, {0x1fbf0, 0x1fbf9},
                  {0x20000, 0x2a6dd}, {0x2a700, 0x2b734}, {0x2b740, 0x2b81d}, {0x2b820, 0x2cea1},
                  {0x2ceb0, 0x2ebe0}, {0x2f800, 0x2fa1d}, {0x30000, 0x3134a}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -3939,7 +3939,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass60()
                  {0x1f130, 0x1f14f}, {0x1f16a, 0x1f16c}, {0x1f200, 0x1f202}, {0x1f210, 0x1f23b},
                  {0x1f240, 0x1f248}, {0x1f250, 0x1f251}, {0x1fbf0, 0x1fbf9}, {0x2f800, 0x2fa1d},
                  {0xe0000, 0xe0fff}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -4317,7 +4317,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass84()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x1f1e6, 0x1f1ff}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -4396,7 +4396,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass87()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x1f3fb, 0x1f3ff}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -4603,7 +4603,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass91()
                  {0x2a6de, 0x2a6ff}, {0x2b735, 0x2b73f}, {0x2b81e, 0x2b81f}, {0x2cea2, 0x2ceaf},
                  {0x2ebe1, 0x2f7ff}, {0x2fa1e, 0x2ffff}, {0x3134b, 0xe0000}, {0xe0002, 0xe001f},
                  {0xe0080, 0xe00ff}, {0xe01f0, 0x10ffff}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -5161,7 +5161,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass129()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x10300, 0x10323}, {0x1032d, 0x1032f}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -5173,7 +5173,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass130()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x10330, 0x1034a}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -5185,7 +5185,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass131()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x10400, 0x1044f}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -5287,7 +5287,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass139()
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x10000, 0x1000b}, {0x1000d, 0x10026}, {0x10028, 0x1003a}, {0x1003c, 0x1003d},
                  {0x1003f, 0x1004d}, {0x10050, 0x1005d}, {0x10080, 0x100fa}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -5299,7 +5299,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass140()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({0x1039f}),
         std::initializer_list<CharacterRange>({{0x10380, 0x1039d}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -5311,7 +5311,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass141()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x10450, 0x1047f}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -5323,7 +5323,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass142()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x10480, 0x1049d}, {0x104a0, 0x104a9}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -5335,7 +5335,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass143()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({0x10808, 0x1083c, 0x1083f}),
         std::initializer_list<CharacterRange>({{0x10800, 0x10805}, {0x1080a, 0x10835}, {0x10837, 0x10838}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -5432,7 +5432,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass151()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x103a0, 0x103c3}, {0x103c8, 0x103d5}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -5445,7 +5445,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass152()
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x10a00, 0x10a03}, {0x10a05, 0x10a06}, {0x10a0c, 0x10a13}, {0x10a15, 0x10a17},
                  {0x10a19, 0x10a35}, {0x10a38, 0x10a3a}, {0x10a3f, 0x10a48}, {0x10a50, 0x10a58}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -5469,7 +5469,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass154()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x12000, 0x12399}, {0x12400, 0x1246e}, {0x12470, 0x12474}, {0x12480, 0x12543}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -5481,7 +5481,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass155()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({0x1091f}),
         std::initializer_list<CharacterRange>({{0x10900, 0x1091b}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -5601,7 +5601,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass165()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x10280, 0x1029c}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -5613,7 +5613,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass166()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x102a0, 0x102d0}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -5625,7 +5625,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass167()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({0x1093f}),
         std::initializer_list<CharacterRange>({{0x10920, 0x10939}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -5674,7 +5674,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass171()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x10b00, 0x10b35}, {0x10b39, 0x10b3f}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -5686,7 +5686,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass172()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x13000, 0x1342e}, {0x13430, 0x13438}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -5758,7 +5758,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass178()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x10840, 0x10855}, {0x10857, 0x1085f}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -5770,7 +5770,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass179()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x10a60, 0x10a7f}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -5782,7 +5782,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass180()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x10b40, 0x10b55}, {0x10b58, 0x10b5f}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -5794,7 +5794,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass181()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x10b60, 0x10b72}, {0x10b78, 0x10b7f}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -5806,7 +5806,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass182()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x10c00, 0x10c48}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -5818,7 +5818,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass183()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({0x110cd}),
         std::initializer_list<CharacterRange>({{0x11080, 0x110c1}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -5842,7 +5842,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass185()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({0x1107f}),
         std::initializer_list<CharacterRange>({{0x11000, 0x1104d}, {0x11052, 0x1106f}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -5866,7 +5866,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass187()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x11100, 0x11134}, {0x11136, 0x11147}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -5878,7 +5878,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass188()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x109a0, 0x109b7}, {0x109bc, 0x109cf}, {0x109d2, 0x109ff}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -5890,7 +5890,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass189()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x10980, 0x1099f}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -5902,7 +5902,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass190()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x16f00, 0x16f4a}, {0x16f4f, 0x16f87}, {0x16f8f, 0x16f9f}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -5914,7 +5914,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass191()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x11180, 0x111df}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -5926,7 +5926,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass192()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x110d0, 0x110e8}, {0x110f0, 0x110f9}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -5938,7 +5938,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass193()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x11680, 0x116b8}, {0x116c0, 0x116c9}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -5950,7 +5950,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass194()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({0x1056f}),
         std::initializer_list<CharacterRange>({{0x10530, 0x10563}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -5962,7 +5962,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass195()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x16ad0, 0x16aed}, {0x16af0, 0x16af5}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -5975,7 +5975,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass196()
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x1bc00, 0x1bc6a}, {0x1bc70, 0x1bc7c}, {0x1bc80, 0x1bc88}, {0x1bc90, 0x1bc99},
                  {0x1bc9c, 0x1bc9f}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -5987,7 +5987,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass197()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x10500, 0x10527}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6002,7 +6002,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass198()
                  {0x1132a, 0x11330}, {0x11332, 0x11333}, {0x11335, 0x11339}, {0x1133c, 0x11344},
                  {0x11347, 0x11348}, {0x1134b, 0x1134d}, {0x1135d, 0x11363}, {0x11366, 0x1136c},
                  {0x11370, 0x11374}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6015,7 +6015,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass199()
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x16b00, 0x16b45}, {0x16b50, 0x16b59}, {0x16b5b, 0x16b61}, {0x16b63, 0x16b77},
                  {0x16b7d, 0x16b8f}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6027,7 +6027,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass200()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x11200, 0x11211}, {0x11213, 0x1123e}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6039,7 +6039,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass201()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x10600, 0x10736}, {0x10740, 0x10755}, {0x10760, 0x10767}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6051,7 +6051,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass202()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x11150, 0x11176}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6063,7 +6063,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass203()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x10ac0, 0x10ae6}, {0x10aeb, 0x10af6}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6075,7 +6075,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass204()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x1e800, 0x1e8c4}, {0x1e8c7, 0x1e8d6}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6087,7 +6087,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass205()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x11600, 0x11644}, {0x11650, 0x11659}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6099,7 +6099,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass206()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x16a40, 0x16a5e}, {0x16a60, 0x16a69}, {0x16a6e, 0x16a6f}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6111,7 +6111,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass207()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x10a80, 0x10a9f}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6123,7 +6123,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass208()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x10880, 0x1089e}, {0x108a7, 0x108af}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6135,7 +6135,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass209()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x10860, 0x1087f}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6147,7 +6147,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass210()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x11ac0, 0x11af8}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6159,7 +6159,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass211()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x10350, 0x1037a}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6171,7 +6171,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass212()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x10b80, 0x10b91}, {0x10b99, 0x10b9c}, {0x10ba9, 0x10baf}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6183,7 +6183,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass213()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x11580, 0x115b5}, {0x115b8, 0x115dd}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6195,7 +6195,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass214()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x112b0, 0x112ea}, {0x112f0, 0x112f9}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6207,7 +6207,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass215()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x11480, 0x114c7}, {0x114d0, 0x114d9}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6219,7 +6219,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass216()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({0x118ff}),
         std::initializer_list<CharacterRange>({{0x118a0, 0x118f2}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6231,7 +6231,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass217()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x11700, 0x1171a}, {0x1171d, 0x1172b}, {0x11730, 0x1173f}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6243,7 +6243,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass218()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x14400, 0x14646}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6255,7 +6255,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass219()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x108e0, 0x108f2}, {0x108f4, 0x108f5}, {0x108fb, 0x108ff}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6267,7 +6267,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass220()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({0x11288}),
         std::initializer_list<CharacterRange>({{0x11280, 0x11286}, {0x1128a, 0x1128d}, {0x1128f, 0x1129d}, {0x1129f, 0x112a9}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6279,7 +6279,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass221()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x10c80, 0x10cb2}, {0x10cc0, 0x10cf2}, {0x10cfa, 0x10cff}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6291,7 +6291,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass222()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x1d800, 0x1da8b}, {0x1da9b, 0x1da9f}, {0x1daa1, 0x1daaf}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6303,7 +6303,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass223()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x1e900, 0x1e94b}, {0x1e950, 0x1e959}, {0x1e95e, 0x1e95f}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6315,7 +6315,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass224()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x11c00, 0x11c08}, {0x11c0a, 0x11c36}, {0x11c38, 0x11c45}, {0x11c50, 0x11c6c}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6327,7 +6327,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass225()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x11c70, 0x11c8f}, {0x11c92, 0x11ca7}, {0x11ca9, 0x11cb6}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6339,7 +6339,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass226()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x11400, 0x1145b}, {0x1145d, 0x11461}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6351,7 +6351,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass227()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x104b0, 0x104d3}, {0x104d8, 0x104fb}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6363,7 +6363,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass228()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({0x16fe0}),
         std::initializer_list<CharacterRange>({{0x17000, 0x187f7}, {0x18800, 0x18aff}, {0x18d00, 0x18d08}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6376,7 +6376,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass229()
         std::initializer_list<UChar32>({0x11d3a}),
         std::initializer_list<CharacterRange>({{0x11d00, 0x11d06}, {0x11d08, 0x11d09}, {0x11d0b, 0x11d36}, {0x11d3c, 0x11d3d},
                  {0x11d3f, 0x11d47}, {0x11d50, 0x11d59}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6388,7 +6388,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass230()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({0x16fe1}),
         std::initializer_list<CharacterRange>({{0x1b170, 0x1b2fb}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6400,7 +6400,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass231()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x11a50, 0x11aa2}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6412,7 +6412,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass232()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x11a00, 0x11a47}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6424,7 +6424,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass233()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x11800, 0x1183b}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6437,7 +6437,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass234()
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x11d60, 0x11d65}, {0x11d67, 0x11d68}, {0x11d6a, 0x11d8e}, {0x11d90, 0x11d91},
                  {0x11d93, 0x11d98}, {0x11da0, 0x11da9}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6449,7 +6449,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass235()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x11ee0, 0x11ef8}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6461,7 +6461,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass236()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x16e40, 0x16e9a}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6473,7 +6473,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass237()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x10d00, 0x10d27}, {0x10d30, 0x10d39}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6485,7 +6485,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass238()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x10f30, 0x10f59}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6497,7 +6497,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass239()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x10f00, 0x10f27}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6509,7 +6509,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass240()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x10fe0, 0x10ff6}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6521,7 +6521,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass241()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x119a0, 0x119a7}, {0x119aa, 0x119d7}, {0x119da, 0x119e4}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6533,7 +6533,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass242()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x1e100, 0x1e12c}, {0x1e130, 0x1e13d}, {0x1e140, 0x1e149}, {0x1e14e, 0x1e14f}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6545,7 +6545,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass243()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({0x1e2ff}),
         std::initializer_list<CharacterRange>({{0x1e2c0, 0x1e2f9}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6557,7 +6557,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass244()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x10fb0, 0x10fcb}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6570,7 +6570,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass245()
         std::initializer_list<UChar32>({0x11909}),
         std::initializer_list<CharacterRange>({{0x11900, 0x11906}, {0x1190c, 0x11913}, {0x11915, 0x11916}, {0x11918, 0x11935},
                  {0x11937, 0x11938}, {0x1193b, 0x11946}, {0x11950, 0x11959}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6582,7 +6582,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass246()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({0x16fe4}),
         std::initializer_list<CharacterRange>({{0x18b00, 0x18cd5}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6594,7 +6594,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass247()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x10e80, 0x10ea9}, {0x10eab, 0x10ead}, {0x10eb0, 0x10eb1}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6695,7 +6695,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass252()
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x1bc00, 0x1bc6a}, {0x1bc70, 0x1bc7c}, {0x1bc80, 0x1bc88}, {0x1bc90, 0x1bc99},
                  {0x1bc9c, 0x1bca3}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -6854,7 +6854,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass262()
     return characterClass;
 }
 
-static std::unique_ptr<CharacterClass> createCharacterClass263()
+static std::unique_ptr<CharacterClass> createCharacterClass265()
 {
     // Name = Buginese, number of codePoints: 31
     auto characterClass = std::make_unique<CharacterClass>(
@@ -6866,7 +6866,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass263()
     return characterClass;
 }
 
-static std::unique_ptr<CharacterClass> createCharacterClass264()
+static std::unique_ptr<CharacterClass> createCharacterClass266()
 {
     // Name = Javanese, number of codePoints: 91
     auto characterClass = std::make_unique<CharacterClass>(
@@ -6878,7 +6878,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass264()
     return characterClass;
 }
 
-static std::unique_ptr<CharacterClass> createCharacterClass265()
+static std::unique_ptr<CharacterClass> createCharacterClass267()
 {
     // Name = Cypriot, number of codePoints: 112
     auto characterClass = std::make_unique<CharacterClass>(
@@ -6887,11 +6887,11 @@ static std::unique_ptr<CharacterClass> createCharacterClass265()
         std::initializer_list<UChar32>({0x10808, 0x1083c, 0x1083f}),
         std::initializer_list<CharacterRange>({{0x10100, 0x10102}, {0x10107, 0x10133}, {0x10137, 0x1013f}, {0x10800, 0x10805},
                  {0x1080a, 0x10835}, {0x10837, 0x10838}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
-static std::unique_ptr<CharacterClass> createCharacterClass266()
+static std::unique_ptr<CharacterClass> createCharacterClass268()
 {
     // Name = Linear_B, number of codePoints: 268
     auto characterClass = std::make_unique<CharacterClass>(
@@ -6901,11 +6901,11 @@ static std::unique_ptr<CharacterClass> createCharacterClass266()
         std::initializer_list<CharacterRange>({{0x10000, 0x1000b}, {0x1000d, 0x10026}, {0x10028, 0x1003a}, {0x1003c, 0x1003d},
                  {0x1003f, 0x1004d}, {0x10050, 0x1005d}, {0x10080, 0x100fa}, {0x10100, 0x10102},
                  {0x10107, 0x10133}, {0x10137, 0x1013f}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
-static std::unique_ptr<CharacterClass> createCharacterClass267()
+static std::unique_ptr<CharacterClass> createCharacterClass269()
 {
     // Name = Cyrillic, number of codePoints: 447
     auto characterClass = std::make_unique<CharacterClass>(
@@ -6918,7 +6918,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass267()
     return characterClass;
 }
 
-static std::unique_ptr<CharacterClass> createCharacterClass268()
+static std::unique_ptr<CharacterClass> createCharacterClass270()
 {
     // Name = Glagolitic, number of codePoints: 136
     auto characterClass = std::make_unique<CharacterClass>(
@@ -6931,7 +6931,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass268()
     return characterClass;
 }
 
-static std::unique_ptr<CharacterClass> createCharacterClass269()
+static std::unique_ptr<CharacterClass> createCharacterClass271()
 {
     // Name = Old_Permic, number of codePoints: 44
     auto characterClass = std::make_unique<CharacterClass>(
@@ -6943,7 +6943,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass269()
     return characterClass;
 }
 
-static std::unique_ptr<CharacterClass> createCharacterClass270()
+static std::unique_ptr<CharacterClass> createCharacterClass272()
 {
     // Name = Grantha, number of codePoints: 116
     auto characterClass = std::make_unique<CharacterClass>(
@@ -6955,34 +6955,6 @@ static std::unique_ptr<CharacterClass> createCharacterClass270()
                  {0x1130f, 0x11310}, {0x11313, 0x11328}, {0x1132a, 0x11330}, {0x11332, 0x11333},
                  {0x11335, 0x11339}, {0x1133b, 0x11344}, {0x11347, 0x11348}, {0x1134b, 0x1134d},
                  {0x1135d, 0x11363}, {0x11366, 0x1136c}, {0x11370, 0x11374}, {0x11fd0, 0x11fd1}}));
-    characterClass->m_hasNonBMPCharacters = true;
-    return characterClass;
-}
-
-static std::unique_ptr<CharacterClass> createCharacterClass271()
-{
-    // Name = Sharada, number of codePoints: 102
-    auto characterClass = std::make_unique<CharacterClass>(
-        std::initializer_list<UChar32>({}),
-        std::initializer_list<CharacterRange>({}),
-        std::initializer_list<UChar32>({0x0951, 0x1cd7, 0x1cd9, 0x1ce0}),
-        std::initializer_list<CharacterRange>({{0x1cdc, 0x1cdd}, {0x11180, 0x111df}}));
-    characterClass->m_hasNonBMPCharacters = true;
-    return characterClass;
-}
-
-static std::unique_ptr<CharacterClass> createCharacterClass272()
-{
-    // Name = Tamil, number of codePoints: 133
-    auto characterClass = std::make_unique<CharacterClass>(
-        std::initializer_list<UChar32>({}),
-        std::initializer_list<CharacterRange>({}),
-        std::initializer_list<UChar32>({0x0b9c, 0x0bd0, 0x0bd7, 0x1cda, 0xa8f3, 0x11301, 0x11303, 0x11fff}),
-        std::initializer_list<CharacterRange>({{0x0951, 0x0952}, {0x0964, 0x0965}, {0x0b82, 0x0b83}, {0x0b85, 0x0b8a},
-                 {0x0b8e, 0x0b90}, {0x0b92, 0x0b95}, {0x0b99, 0x0b9a}, {0x0b9e, 0x0b9f},
-                 {0x0ba3, 0x0ba4}, {0x0ba8, 0x0baa}, {0x0bae, 0x0bb9}, {0x0bbe, 0x0bc2},
-                 {0x0bc6, 0x0bc8}, {0x0bca, 0x0bcd}, {0x0be6, 0x0bfa}, {0x1133b, 0x1133c},
-                 {0x11fc0, 0x11ff1}}));
     characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
@@ -7002,6 +6974,47 @@ static std::unique_ptr<CharacterClass> createCharacterClass273()
 
 static std::unique_ptr<CharacterClass> createCharacterClass274()
 {
+    // Name = Sharada, number of codePoints: 102
+    auto characterClass = std::make_unique<CharacterClass>(
+        std::initializer_list<UChar32>({}),
+        std::initializer_list<CharacterRange>({}),
+        std::initializer_list<UChar32>({0x0951, 0x1cd7, 0x1cd9, 0x1ce0}),
+        std::initializer_list<CharacterRange>({{0x1cdc, 0x1cdd}, {0x11180, 0x111df}}));
+    characterClass->m_hasNonBMPCharacters = true;
+    return characterClass;
+}
+
+static std::unique_ptr<CharacterClass> createCharacterClass275()
+{
+    // Name = Tamil, number of codePoints: 133
+    auto characterClass = std::make_unique<CharacterClass>(
+        std::initializer_list<UChar32>({}),
+        std::initializer_list<CharacterRange>({}),
+        std::initializer_list<UChar32>({0x0b9c, 0x0bd0, 0x0bd7, 0x1cda, 0xa8f3, 0x11301, 0x11303, 0x11fff}),
+        std::initializer_list<CharacterRange>({{0x0951, 0x0952}, {0x0964, 0x0965}, {0x0b82, 0x0b83}, {0x0b85, 0x0b8a},
+                 {0x0b8e, 0x0b90}, {0x0b92, 0x0b95}, {0x0b99, 0x0b9a}, {0x0b9e, 0x0b9f},
+                 {0x0ba3, 0x0ba4}, {0x0ba8, 0x0baa}, {0x0bae, 0x0bb9}, {0x0bbe, 0x0bc2},
+                 {0x0bc6, 0x0bc8}, {0x0bca, 0x0bcd}, {0x0be6, 0x0bfa}, {0x1133b, 0x1133c},
+                 {0x11fc0, 0x11ff1}}));
+    characterClass->m_hasNonBMPCharacters = true;
+    return characterClass;
+}
+
+static std::unique_ptr<CharacterClass> createCharacterClass276()
+{
+    // Name = Georgian, number of codePoints: 174
+    auto characterClass = std::make_unique<CharacterClass>(
+        std::initializer_list<UChar32>({}),
+        std::initializer_list<CharacterRange>({}),
+        std::initializer_list<UChar32>({0x10c7, 0x10cd, 0x2d27, 0x2d2d}),
+        std::initializer_list<CharacterRange>({{0x10a0, 0x10c5}, {0x10d0, 0x10ff}, {0x1c90, 0x1cba}, {0x1cbd, 0x1cbf},
+                 {0x2d00, 0x2d25}}));
+    characterClass->m_hasNonBMPCharacters = false;
+    return characterClass;
+}
+
+static std::unique_ptr<CharacterClass> createCharacterClass277()
+{
     // Name = Gujarati, number of codePoints: 105
     auto characterClass = std::make_unique<CharacterClass>(
         std::initializer_list<UChar32>({}),
@@ -7015,7 +7028,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass274()
     return characterClass;
 }
 
-static std::unique_ptr<CharacterClass> createCharacterClass275()
+static std::unique_ptr<CharacterClass> createCharacterClass278()
 {
     // Name = Khojki, number of codePoints: 82
     auto characterClass = std::make_unique<CharacterClass>(
@@ -7027,7 +7040,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass275()
     return characterClass;
 }
 
-static std::unique_ptr<CharacterClass> createCharacterClass276()
+static std::unique_ptr<CharacterClass> createCharacterClass279()
 {
     // Name = Gurmukhi, number of codePoints: 94
     auto characterClass = std::make_unique<CharacterClass>(
@@ -7042,7 +7055,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass276()
     return characterClass;
 }
 
-static std::unique_ptr<CharacterClass> createCharacterClass277()
+static std::unique_ptr<CharacterClass> createCharacterClass280()
 {
     // Name = Multani, number of codePoints: 48
     auto characterClass = std::make_unique<CharacterClass>(
@@ -7055,7 +7068,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass277()
     return characterClass;
 }
 
-static std::unique_ptr<CharacterClass> createCharacterClass278()
+static std::unique_ptr<CharacterClass> createCharacterClass281()
 {
     // Name = Hiragana, number of codePoints: 431
     auto characterClass = std::make_unique<CharacterClass>(
@@ -7070,7 +7083,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass278()
     return characterClass;
 }
 
-static std::unique_ptr<CharacterClass> createCharacterClass279()
+static std::unique_ptr<CharacterClass> createCharacterClass282()
 {
     // Name = Katakana, number of codePoints: 356
     auto characterClass = std::make_unique<CharacterClass>(
@@ -7085,7 +7098,19 @@ static std::unique_ptr<CharacterClass> createCharacterClass279()
     return characterClass;
 }
 
-static std::unique_ptr<CharacterClass> createCharacterClass280()
+static std::unique_ptr<CharacterClass> createCharacterClass283()
+{
+    // Name = Yezidi, number of codePoints: 60
+    auto characterClass = std::make_unique<CharacterClass>(
+        std::initializer_list<UChar32>({}),
+        std::initializer_list<CharacterRange>({}),
+        std::initializer_list<UChar32>({0x060c, 0x061b, 0x061f}),
+        std::initializer_list<CharacterRange>({{0x0660, 0x0669}, {0x10e80, 0x10ea9}, {0x10eab, 0x10ead}, {0x10eb0, 0x10eb1}}));
+    characterClass->m_hasNonBMPCharacters = true;
+    return characterClass;
+}
+
+static std::unique_ptr<CharacterClass> createCharacterClass284()
 {
     // Name = Kannada, number of codePoints: 104
     auto characterClass = std::make_unique<CharacterClass>(
@@ -7100,7 +7125,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass280()
     return characterClass;
 }
 
-static std::unique_ptr<CharacterClass> createCharacterClass281()
+static std::unique_ptr<CharacterClass> createCharacterClass285()
 {
     // Name = Mongolian, number of codePoints: 171
     auto characterClass = std::make_unique<CharacterClass>(
@@ -7113,7 +7138,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass281()
     return characterClass;
 }
 
-static std::unique_ptr<CharacterClass> createCharacterClass282()
+static std::unique_ptr<CharacterClass> createCharacterClass286()
 {
     // Name = Phags_Pa, number of codePoints: 59
     auto characterClass = std::make_unique<CharacterClass>(
@@ -7125,7 +7150,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass282()
     return characterClass;
 }
 
-static std::unique_ptr<CharacterClass> createCharacterClass283()
+static std::unique_ptr<CharacterClass> createCharacterClass287()
 {
     // Name = Yezidi, number of codePoints: 60
     auto characterClass = std::make_unique<CharacterClass>(
@@ -7193,7 +7218,7 @@ static std::unique_ptr<CharacterClass> createCharacterClass288()
         std::initializer_list<CharacterRange>({}),
         std::initializer_list<UChar32>({}),
         std::initializer_list<CharacterRange>({{0x10107, 0x10133}, {0x10600, 0x10736}, {0x10740, 0x10755}, {0x10760, 0x10767}}));
-    characterClass->m_hasNonBMPCharacters = true;
+characterClass->m_hasNonBMPCharacters = true;
     return characterClass;
 }
 
@@ -9077,11 +9102,14 @@ static const struct HashIndex scriptExtensionTableIndex[590] = {
     { -1, -1 },
     { 113, -1 },
     { -1, -1 },
+    { 113, -1 },
     { -1, -1 },
     { -1, -1 },
     { 226, -1 },
     { 287, -1 },
     { -1, -1 },
+    { 226, -1 },
+    { 287, -1 },
     { -1, -1 },
     { -1, -1 },
     { -1, -1 },
@@ -9090,6 +9118,9 @@ static const struct HashIndex scriptExtensionTableIndex[590] = {
     { 202, -1 },
     { 7, 525 },
     { -1, -1 },
+    { 174, -1 },
+    { 202, -1 },
+    { 7, 525 },
     { -1, -1 },
     { 152, 559 },
     { 185, -1 },
@@ -9113,6 +9144,9 @@ static const struct HashIndex scriptExtensionTableIndex[590] = {
     { 211, -1 },
     { 284, -1 },
     { -1, -1 },
+    { 188, -1 },
+    { 211, -1 },
+    { 284, -1 },
     { -1, -1 },
     { 255, -1 },
     { -1, -1 },
